@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.drum-pad {
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: #ccc;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  box-shadow: 3px 3px 5px #aaa;
+}
+
+.drum-pad:hover {
+  background-color: #999;
+}
+
+#drum-machine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#display {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: #eee;
+  line-height: 50px;
+}
